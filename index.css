@@ -110,6 +110,7 @@ ul{
     .page1, .page2{
         width: 280px;
         height: 300px;
+        margin: 0;
     }
     .text{
         font-size: 14px;
