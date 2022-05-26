@@ -1,0 +1,120 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+}
+.page1, .page2{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 30px;
+    width: 320px;
+    height: 320px;
+    margin: 20px;
+    padding: 20px;
+}
+.text{
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+}
+.question{
+    color: hsl(0, 0%, 100%);
+    font-size: 22px;
+    margin: 30px 0 10px 0;
+}
+.rate{
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    background-color: hsl(213, 19%, 22%);
+    border: none;
+    color: hsl(216, 12%, 54%);
+    cursor: pointer;
+}
+.rate:hover{
+    
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+
+}
+.rate:focus{
+    background-color: hsl(216, 12%, 54%);
+    color: hsl(0, 0%, 100%);
+}
+/* .after{
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    background-color: hsl(216, 12%, 54%);
+    color: hsl(0, 0%, 100%);
+} */
+
+#submit{
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 25px;
+    width: inherit;
+    height: 35px;
+    border: none;
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+}
+#submit:hover{
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(0, 0%, 100%);
+}
+ul{
+    margin: 30px 0 30px 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+}
+.stardiv{
+    background-color: hsl(213, 19%, 22%);
+    width:40px;
+    height: 40px;
+    border-radius: 30px;
+}
+#star{
+    margin: 12px;
+}
+.page2{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.title{
+    background-color:hsl(213, 19%, 22%);
+    width: 160px;
+    height: 20px;
+    border-radius: 15px;
+    font-size: 14px;
+    margin: 20px 0 10px 0;
+    color: hsl(25, 97%, 53%);
+    padding-top: 5px;
+}
+.thanks{
+    color: hsl(0, 0%, 100%);
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+@media only screen and (max-width: 480px){
+    .page1, .page2{
+        width: 280px;
+        height: 300px;
+    }
+    .text{
+        font-size: 14px;
+    }
+    .title{
+        font-size: 13px;
+    }
+}
